@@ -6,8 +6,8 @@
 
 <img src={imgd8} alt="fuckit">
 
-
-
 <style>
-
+    img {
+        border-radius: 5%;
+    }
 </style>

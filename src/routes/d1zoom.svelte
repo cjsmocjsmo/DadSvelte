@@ -9,5 +9,7 @@
 
 
 <style>
-
+    img {
+        border-radius: 5%;
+    }
 </style>

@@ -1,14 +1,14 @@
 <script context="module">
 	export const prerender = true;
-	import d2thumb from '$lib/images/thumbs/d2thumb.jpg';
-	import d1thumb from '$lib/images/thumbs/d1thumb.jpg';
-	import d4thumb from '$lib/images/thumbs/d4thumb.jpg';
-	import d5thumb from '$lib/images/thumbs/d5thumb.jpg';
-	import d6thumb from '$lib/images/thumbs/d6thumb.jpg';
-	import d7thumb from '$lib/images/thumbs/d7thumb.jpg';
-	import d8thumb from '$lib/images/thumbs/d8thumb.jpg';
-	import d9thumb from '$lib/images/thumbs/d9thumb.jpg';
-	import d10thumb from '$lib/images/thumbs/d10thumb.jpg';
+	import d2thumb from '$lib/images/thumbs/d2thumb2.jpg';
+	import d1thumb from '$lib/images/thumbs/d1thumb2.jpg';
+	import d4thumb from '$lib/images/thumbs/d4thumb2.jpg';
+	import d5thumb from '$lib/images/thumbs/d5thumb2.jpg';
+	import d6thumb from '$lib/images/thumbs/d6thumb2.jpg';
+	import d7thumb from '$lib/images/thumbs/d7thumb2.jpg';
+	import d8thumb from '$lib/images/thumbs/d8thumb2.jpg';
+	import d9thumb from '$lib/images/thumbs/d9thumb2.jpg';
+	import d10thumb from '$lib/images/thumbs/d10thumb2.jpg';
 </script>
 
 
@@ -37,6 +37,7 @@
 
 	.column img {
 		margin-top: 8px;
+		border-radius: 10%;
 	}
 
 	@media screen and (max-width: 420px) {
