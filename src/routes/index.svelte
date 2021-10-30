@@ -39,10 +39,15 @@
 		margin-top: 8px;
 		border-radius: 10%;
 	}
+	/* @media screen and (max-width: 400px) {
+		img {
+			width: 200px;
+		}
+	} */
 
 	@media screen and (max-width: 420px) {
 		img {
-			width: 120px;
+			width: 175px;
 		}
 	}
 
