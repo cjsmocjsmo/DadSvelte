@@ -1,11 +1,8 @@
 <script>
-    import imgd2 from '$lib/images/d2.jpg';
+    import imgd2webp from '$lib/images/d2.webp';
 </script>
 
-
-
-<img src={imgd2} alt="fuckit">
-
+<img src={imgd2webp} alt="fuckit">
 
 <style>
     img {

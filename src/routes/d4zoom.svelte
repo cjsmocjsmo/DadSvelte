@@ -1,13 +1,11 @@
 <script>
-    import imgd4 from '$lib/images/d4.jpg';
+    import imgd4webp from '$lib/images/d4.webp';
 </script>
 
-
-
-<img src={imgd4} alt="fuckit">
-
+<img src={imgd4webp} alt="fuckit">
 
 <style>
+
     img {
         border-radius: 5%;
         display: block;
@@ -15,9 +13,11 @@
         margin-right: auto;
         width: 70%;
     }
+
     @media screen and (max-width: 420px) {
 		img {
 			width: 100%;
 		}
 	}
+    
 </style>

@@ -1,12 +1,11 @@
 <script>
-    import imgd9 from '$lib/images/d9.jpg';
+    import imgd9webp from '$lib/images/d9.webp';
 </script>
 
-
-
-<img src={imgd9} alt="fuckit">
+<img src={imgd9webp} alt="fuckit">
 
 <style>
+
     img {
         border-radius: 5%;
         display: block;
@@ -14,9 +13,11 @@
         margin-right: auto;
         width: 70%;
     }
+
     @media screen and (max-width: 420px) {
 		img {
 			width: 100%;
 		}
 	}
+
 </style>
