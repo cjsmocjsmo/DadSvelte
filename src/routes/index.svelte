@@ -16,7 +16,14 @@
 <svelte:head>
 	<title>Dad</title>
 </svelte:head>
-<a href="https://frontpage-czi.pages.dev/" ><button>Back</button></a>
+<a href="https://frontpage-czi.pages.dev/">
+	<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="white" class="bi bi-arrow-left"
+		viewBox="0 0 32 32">
+		<path fill-rule="evenodd"
+			d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+	</svg>
+</a>
+<!-- <a href="https://frontpage-czi.pages.dev/" ><button>Back</button></a> -->
 <div class="column">
 	<a href="/d1zoom"><img src={d1thumb} alt="fuckit" ></a>
 	<a href="/d2zoom"><img src={d2thumb} alt="fuckit" ></a>
@@ -28,18 +35,29 @@
 	<a href="/d9zoom"><img src={d9thumb} alt="fuckit" ></a>
 	<a href="/d10zoom"><img src={d10thumb} alt="fuckit" ></a>
 </div>
-<a href="https://frontpage-czi.pages.dev/" ><button>Back</button></a>
+<a id="bottom-a" href="https://frontpage-czi.pages.dev/">
+	<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="white" class="bi bi-arrow-left"
+		viewBox="0 0 32 32">
+		<path fill-rule="evenodd"
+			d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+	</svg>
+</a>
+<!-- <a href="https://frontpage-czi.pages.dev/" ><button>Back</button></a> -->
 
 <style>
 
-	button {
+	#bottom-a {
+		margin-top: 10px;
+	}
+
+	/* button {
         width: 25%;
 		padding: 8px;
 		border-radius: 7px;
 		background-color: white;
 		font-size: 1.25em;
 		color: black;
-    }
+    } */
 
 
 	.column {

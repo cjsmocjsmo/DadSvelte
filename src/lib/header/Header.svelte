@@ -9,17 +9,17 @@
 	<nav>
 		
 		<ul>
-			<li class:active={$page.path === '/'}></li>
-			<li class:active={$page.path === '/d1zoom'}></li>
-			<li class:active={$page.path === '/d2zoom'}></li>
-			<li class:active={$page.path === '/d4zoom'}></li>
-			<li class:active={$page.path === '/d5zoom'}></li>
-			<li class:active={$page.path === '/d6zoom'}></li>
-			<li class:active={$page.path === '/d7zoom'}></li>
-			<li class:active={$page.path === '/d8zoom'}></li>
-			<li class:active={$page.path === '/d9zoom'}></li>
-			<li class:active={$page.path === '/d10zoom'}></li>
-			<li class:active={$page.path === '/d51zoom'}></li>
+			<li class:active={$page.url.pathname === '/'}></li>
+			<li class:active={$page.url.pathname === '/d1zoom'}></li>
+			<li class:active={$page.url.pathname === '/d2zoom'}></li>
+			<li class:active={$page.url.pathname === '/d4zoom'}></li>
+			<li class:active={$page.url.pathname === '/d5zoom'}></li>
+			<li class:active={$page.url.pathname === '/d6zoom'}></li>
+			<li class:active={$page.url.pathname === '/d7zoom'}></li>
+			<li class:active={$page.url.pathname === '/d8zoom'}></li>
+			<li class:active={$page.url.pathname === '/d9zoom'}></li>
+			<li class:active={$page.url.pathname === '/d10zoom'}></li>
+			<li class:active={$page.url.pathname === '/d51zoom'}></li>
 		</ul>
 		
 	</nav>
