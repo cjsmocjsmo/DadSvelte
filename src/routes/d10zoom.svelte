@@ -1,5 +1,5 @@
 <script>
-	import imgd10 from '$lib/images/d10.jpg';
+	import imgd10 from '$lib/images/d10.webp';
 </script>
 
 <a href="/">

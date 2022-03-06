@@ -10,7 +10,7 @@
 	</svg>
 </a>
 
-<img src={imgd2} alt="fuckit">
+<img src={imgd2webp} alt="fuckit">
 
 
 <style>
