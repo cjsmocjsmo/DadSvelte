@@ -52,16 +52,6 @@
 		margin-top: 10px;
 	}
 
-	/* button {
-        width: 25%;
-		padding: 8px;
-		border-radius: 7px;
-		background-color: white;
-		font-size: 1.25em;
-		color: black;
-    } */
-
-
 	.column {
 		flex: 25%;
 		padding: 0 4px;
