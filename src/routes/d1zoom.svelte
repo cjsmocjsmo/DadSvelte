@@ -1,5 +1,5 @@
 <script>
-    import imgd1 from '$lib/images/d1.jpg';
+    import imgd1webp from '$lib/images/d1.webp';
 </script>
 
 <a href="/">
@@ -28,9 +28,11 @@
         margin-right: auto;
         width: 70%;
     }
+
     @media screen and (max-width: 420px) {
 		img {
 			width: 100%;
 		}
 	}
+
 </style>

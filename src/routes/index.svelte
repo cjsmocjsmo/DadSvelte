@@ -1,14 +1,16 @@
 <script context="module">
 	export const prerender = true;
-	import d2thumb from '$lib/images/thumbs/d2thumb2.jpg';
-	import d1thumb from '$lib/images/thumbs/d1thumb2.jpg';
-	import d4thumb from '$lib/images/thumbs/d4thumb2.jpg';
-	import d5thumb from '$lib/images/thumbs/d5thumb2.jpg';
-	import d6thumb from '$lib/images/thumbs/d6thumb2.jpg';
-	import d7thumb from '$lib/images/thumbs/d7thumb2.jpg';
-	import d8thumb from '$lib/images/thumbs/d8thumb2.jpg';
-	import d9thumb from '$lib/images/thumbs/d9thumb2.jpg';
-	import d10thumb from '$lib/images/thumbs/d10thumb2.jpg';
+
+	import d1thumbwebp from '$lib/images/thumbs/d1thumb2.webp';
+	import d2thumbwebp from '$lib/images/thumbs/d2thumb2.webp';
+	import d4thumbwebp from '$lib/images/thumbs/d4thumb2.webp';
+	import d5thumbwebp from '$lib/images/thumbs/d5thumb2.webp';
+	import d6thumbwebp from '$lib/images/thumbs/d6thumb2.webp';
+	import d7thumbwebp from '$lib/images/thumbs/d7thumb2.webp';
+	import d8thumbwebp from '$lib/images/thumbs/d8thumb2.webp';
+	import d9thumbwebp from '$lib/images/thumbs/d9thumb2.webp';
+	import d10thumbwebp from '$lib/images/thumbs/d10thumb2.webp';
+
 </script>
 
 
@@ -25,15 +27,15 @@
 </a>
 <!-- <a href="https://frontpage-czi.pages.dev/" ><button>Back</button></a> -->
 <div class="column">
-	<a href="/d1zoom"><img src={d1thumb} alt="fuckit" ></a>
-	<a href="/d2zoom"><img src={d2thumb} alt="fuckit" ></a>
-	<a href="/d4zoom"><img src={d4thumb} alt="fuckit" ></a>
-	<a href="/d5zoom"><img src={d5thumb} alt="fuckit" ></a>
-	<a href="/d6zoom"><img src={d6thumb} alt="fuckit" ></a>
-	<a href="/d7zoom"><img src={d7thumb} alt="fuckit" ></a>
-	<a href="/d8zoom"><img src={d8thumb} alt="fuckit" ></a>
-	<a href="/d9zoom"><img src={d9thumb} alt="fuckit" ></a>
-	<a href="/d10zoom"><img src={d10thumb} alt="fuckit" ></a>
+	<a href="/d1zoom"><img src={d1thumbwebp} alt="fuckit" ></a>
+	<a href="/d2zoom"><img src={d2thumbwebp} alt="fuckit" ></a>	
+	<a href="/d4zoom"><img src={d4thumbwebp} alt="fuckit" ></a>
+	<a href="/d5zoom"><img src={d5thumbwebp} alt="fuckit" ></a>
+	<a href="/d6zoom"><img src={d6thumbwebp} alt="fuckit" ></a>
+	<a href="/d7zoom"><img src={d7thumbwebp} alt="fuckit" ></a>
+	<a href="/d8zoom"><img src={d8thumbwebp} alt="fuckit" ></a>
+	<a href="/d9zoom"><img src={d9thumbwebp} alt="fuckit" ></a>
+	<a href="/d10zoom"><img src={d10thumbwebp} alt="fuckit" ></a>
 </div>
 <a id="bottom-a" href="https://frontpage-czi.pages.dev/">
 	<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="white" class="bi bi-arrow-left"
